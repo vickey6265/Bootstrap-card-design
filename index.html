@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Card</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Bootstrap Card Design</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img class="card-image" src="bg.jpg" alt="card image here">
+                <div class="card-content">
+                    <h4>Vivek Suthar</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <div class="card-bottom">
+                    <div class="col-sm-12">
+                        <div class="col-sm-3">
+                            <a href=""><i data-toggle="tooltip" title="Follow on!" class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href=""><i data-toggle="tooltip" title="Follow on!" class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href=""><i data-toggle="tooltip" title="Follow on!" class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href=""><i data-toggle="tooltip" title="Follow on!" class="fa fa-snapchat" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip({
+                placement: "top"
+            });
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
